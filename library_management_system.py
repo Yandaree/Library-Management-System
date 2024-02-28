@@ -56,10 +56,8 @@ class Library:
         else:
             print(f"Book '{title}' not found.")
 
-# Create an object named “lib” with “Library” class.
 lib = Library()
 
-# Create a menu to interact with the “lib” object.
 while True:
     print("*** MENU ***")
     print("1) List Books")
